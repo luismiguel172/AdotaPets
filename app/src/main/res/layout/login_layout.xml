@@ -19,7 +19,8 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/logobg" />
+            android:src="@drawable/logobg"
+            android:layout_marginBottom="50dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -76,6 +77,29 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:text="Não tem conta? Cadastre-se"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:text="Entrar"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:text="Sair"/>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
