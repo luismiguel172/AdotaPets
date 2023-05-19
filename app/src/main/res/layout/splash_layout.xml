@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:text="AdotaPet"
         android:textSize="40sp"
-        android:fontFamily="@font/Satisfy"
+        android:fontFamily="@font/satisfy"
         android:textColor="#EDC80F"/>
 
     <ProgressBar

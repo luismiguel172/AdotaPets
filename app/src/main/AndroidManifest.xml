@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".Parceiros_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Localizacao_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Servicos_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Doacoes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Alimentos_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pets_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Cadastro_Activity"
             android:exported="false" />
         <activity
@@ -24,17 +42,15 @@
         <activity
             android:name=".Splash_Activity"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
